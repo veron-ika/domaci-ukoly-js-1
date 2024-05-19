@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+header {
+    width: 1200px;
+    margin: auto;
+    background-image: url(images/image.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 550;
+    font-size: 51px;
+    margin: 0px 30px 10px 10px;
+    padding: 150px 30px 0px 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px 5px 60px 5px;
+}
+
+/* Navigation */
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    width: 12%;
+    text-align: center;
+    line-height: 44px;
+    font-size: 26px;
+    vertical-align: middle;
+    font-style: 400px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #939392;
+}
+
+nav ul {   
+    /* margin: 0 18%; */
+    margin: auto;
+}
+
+nav {
+    margin: 0px auto;
+    padding: 0px 10px 5px 10px;
+    width: 1180px;
+    background: rgba(233, 233, 233, 0.523);
+}
+
+/* OBSAH */
+
+main {
+    width: 1200px;
+    margin: 50px auto;
+    padding: 20px auto;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px 20px 15px 20px;
+    text-align: left;
+}
+
+h3 a {
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+}
+
+h3 a:hover {
+    border-bottom: 3px solid darkgreen;
+}
+
+p {
+    text-align: left;
+    margin: 10px 20px 10px 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
