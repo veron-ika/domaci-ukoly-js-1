@@ -1,0 +1,18 @@
+p, a {
+    color: #000000;
+    text-decoration: none;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+}
+
+a {
+    border: 1px solid  #1db1eb;
+    padding: 5px;
+}
+
+a:hover{
+    border-bottom: 3px solid #217799;
+}

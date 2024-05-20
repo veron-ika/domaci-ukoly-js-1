@@ -8,11 +8,6 @@ Doplňte do stránek JavaScriptový program, který pomocí funkce prompt požad
 Na samém začátku vašeho programu funguje funkce updateSkill, která bere dva vstupy: textový řetězec představující id prvek a číslo mezi 0–100. Tato funkce při zavolání nastaví posuvník se zadaným id na správnou hodnotu. Použijte tuto funkci ve vašem kódu, abyste nemuseli při nastavování posuvníků psát třikrát po sobě téměř stejný kód.
 */
 
-const backToIndex = document.querySelector("p")
-backToIndex.style.textAlign = "center"
-backToIndex.style.fontFamily = "arial"
-backToIndex.style.fontSize = "28px"
-
 const updateSkill = (skill, urovenZnalosti) => {
     const idSkill = document.getElementById(skill)
     const progress = idSkill.querySelector(".skill__progress");
