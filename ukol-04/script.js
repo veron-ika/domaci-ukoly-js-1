@@ -5,11 +5,16 @@ Napište funkci max3, která vrátí největší ze tří zadaných čísel. Op�
 const max3 = (x, y, z) => {
     if (x > y && x > z) {
         return x
-    }
-    if (y > x && y > z) {
+    } else if (y > x && y > z) {
         return y
-    }
-    return z
+    } else if (x === y && x > z) {
+        return x
+    }  else if (x === z && x > y) {
+        return x
+    } else if (y === z && y > x) {
+        return y
+    } else
+        return z
 }
 
 console.log(max3(1, 2, 3))
