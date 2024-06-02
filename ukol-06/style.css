@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(26, 85, 213);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(54, 107, 222);
+}
+
+
+.linkA, a {
+    color: #296cb3;
+    text-decoration: none;
+    margin: 40px;
+    text-align:center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+}
+
+a {
+    padding: 5px;
+}
+
+a:hover{
+    border-bottom: 2px solid #3041c2;
+}
